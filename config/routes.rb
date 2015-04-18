@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root to: 'adventures#home'
   resources :comments
   get 'pages/info'
 

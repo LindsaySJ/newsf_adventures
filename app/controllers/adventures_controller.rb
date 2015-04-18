@@ -1,6 +1,9 @@
 class AdventuresController < ApplicationController
   before_action :set_adventure, only: [:show, :edit, :update, :destroy]
 
+  def home
+  end
+
   # GET /adventures
   # GET /adventures.json
   def index
