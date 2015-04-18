@@ -7,7 +7,7 @@
     <% group.compact.each do |adventure| %>
       <div class="col-md-4">
         <%= image_tag adventure.picture, width: '100%' if adventure.picture.present?%>
-        <h4><%= link_to adventure.name, adventure %></h4>
+        <h4><%= link_to adventure.name, adventure, class: 'btn btn-default' %></h4>
         <%= adventure.description %>
       </div>
     <% end %>
@@ -16,4 +16,4 @@
 
 <br>
 
-<%= link_to 'New Adventure', new_adventure_path %>
+<%= link_to 'New Adventure', new_adventure_path, class: 'btn btn-warning btn-lg' %>

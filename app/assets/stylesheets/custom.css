@@ -3,7 +3,9 @@ body {
   color:white;
   text-align:center;
   font-family: 'Bitter', serif;
-  padding-top: 60px;
+  padding-top: 100px;
+  background-image: url(http://www.wallpaperup.com/uploads/wallpapers/2014/08/27/430104/big_thumb_491be918667a25aeb86c33cf5e3efbf9.jpg);
+  background-size: cover;
 }
 img {
   max-width: 200px;
@@ -11,3 +13,9 @@ img {
 footer { margin-top: 100px; }
 table, td, th { vertical-align: middle; border: none; }
 th { border-bottom: 1px solid #DDD; }
+.btn-lg {
+  font-size:1.2em;
+}
+a {
+
+}
