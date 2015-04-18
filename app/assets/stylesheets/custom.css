@@ -3,7 +3,11 @@ body {
   color:white;
   text-align:center;
   font-family: 'Bitter', serif;
+  padding-top: 60px;
 }
 img {
   max-width: 200px;
 }
+footer { margin-top: 100px; }
+table, td, th { vertical-align: middle; border: none; }
+th { border-bottom: 1px solid #DDD; }
