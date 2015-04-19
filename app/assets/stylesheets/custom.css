@@ -23,3 +23,9 @@ h1.title {
   font-weight: 700;
   font-family: 'Comfortaa';
 }
+h1.about {
+  font-size:4em;
+}
+p.about {
+  font-size:2em;
+}
